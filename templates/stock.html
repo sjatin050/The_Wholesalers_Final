@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} Stock {% endblock title %}
+{% block body %}
+
+<div class="container my-3">
+        <h2> Stock </h2>
+        <form action="/stock" method="POST">
+          <div class="form-floating mb-3">
+          <input type="text" class="form-control" name="name" id="name" placeholder="item name">
+          <label for="name">Item Names</label>
+        </div>
+        <div class="form-floating mb-3">
+        <input type="Integer" class="form-control" name="qty" id="qty" placeholder="Quantitiy">
+        <label for="qty">Quantitiy</label>
+      </div>
+            <button type="submit" class="btn btn-dark">ORDER ITEMS</button>
+          </form>
+    </div>
+
+{% endblock body %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %} Orders{% endblock title %}
+{% block body %}
+
+<div class="container">
+  <h1 style="padding-top:40px">Welcome to The Wholesalers Order Portal</h1>
+  <h2 style="padding-top:40px; padding-bottom:30px">Please Select From Below</h2>
+</div>
+
+
+  <div class="col border bg-light order_outlet" style="border-radius:50px;margin-left:10%;margin-right:10%;">
+    <h3 style="padding-top:10px">For All Pending Order Details :</h3>
+    <h3 style="padding-top:10px" align="center"><a href="/placed_orders" align="center" class="BUTTON_CZN">Click Here</a></h3>
+</div>
+
+    <div class="col border bg-light order_outlet" style="border-radius:50px;margin-left:10%;margin-right:10%;">
+      <h3 style="padding-top:10px">For Completed Previous Orders Details :</h3>
+      <h3  style="padding-top:10px" align="center"><a href="/orders_his" align="center" class="BUTTON_CZN">Click Here</a></h3>
+  </div>
+  <div class="col border bg-light order_outlet" style="border-radius:50px;margin-left:10%;margin-right:10%;">
+    <h3 style="padding-top:10px">For Placing an Order :</h3>
+    <h3 style="padding-top:10px" align="center"><a href="/order" align="center" class="BUTTON_CZN">Click Here</a></h3>
+  </div>
+  <div class="col border bg-light order_outlet" style="border-radius:50px;margin-left:10%;margin-right:10%;">
+    <h3 style="padding-top:10px">For pending payments details :</h3>
+    <h3 style="padding-top:10px" align="center"><a href="/pending_pay_view" align="center" class="BUTTON_CZN">Click Here</a></h3>
+  </div>
+
+{% endblock body %}

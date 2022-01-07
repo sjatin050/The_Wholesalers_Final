@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %} place the order{% endblock title %}
+{% block body %}
+
+<div class="container my-3">
+        <h2>Place Your Order</h2>
+        <form action="/order" method="POST">
+          <div class="form-floating mb-3">
+          <input type="text" class="form-control" name="cust_name" id="cust_name" placeholder="customer name">
+          <label for="cust_name">Customer Names</label>
+        </div>
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control" name="cust_address" id="cust_address" placeholder="customer_address">
+        <label for="cust_address">Customer Address</label>
+      </div>
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control" name="desc" id="desc" placeholder="desc">
+        <label for="desc">Description</label>
+      </div>
+        <div class="form-floating mb-3">
+        <input type="Integer" class="form-control" name="amount" id="amount" placeholder="Amount">
+        <label for="amount">Amount</label>
+      </div>
+            <button type="submit" class="btn btn-dark">ORDER ITEMS</button>
+          </form>
+    </div>
+
+{% endblock body %}
