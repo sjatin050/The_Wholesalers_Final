@@ -1,14 +1,13 @@
 {% extends 'base.html' %}
-{% block title %} Login {% endblock title %}
+{% block title %} Reset Password {% endblock title %}
 
 {% block body %}
-
 
 <div class="container" style="padding-top:80px">
     <form method="POST" action="">
         {{form.hidden_tag()}}
         <fieldset>
-            <h2 style="padding-bottom:80px">Welcome to Wholesalers Login Portal</h2>
+            <h2 style="padding-bottom:80px">{{legend}}</h2>
             
             <div class="form-floating mb-3">
                 {{form.email.label(class="form-control-label")}}
@@ -21,22 +20,11 @@
                 {{form.email(class="form-control form-control-lg")}}
                 {% endif %}
             </div>
-            <div class="form-floating mb-3">
-                {{form.password.label(class="form-control-label")}}
-                {%if form.password.errors%}
-                {{form.password(class="form-control form-control-lg is-invalid")}}
-                    {%for error in form.password.errors%}
-                    <span>{{error}}</span>
-                    {% endfor %}
-                {% else %}
-                {{form.password(class="form-control form-control-lg")}}
-                {% endif %}
-            </div>
+            
            
         </fieldset>
         <div class="field-group mt-2">
-            {{form.submit(class='BUTTON_CZN')}}
-            <a style="font-size: large;color:aqua;" href="{{url_for('reset_request')}}">Forgot Password?</a>
+            {{form.submit(class='btn btn-primary')}}
         </div>
     </form>
 </div>

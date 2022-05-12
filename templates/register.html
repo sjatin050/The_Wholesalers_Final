@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %} Register {% endblock title %}
+
+{% block body %}
+
+<div class="container" style="padding-top:80px;padding-bottom:80px">
+    <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <fieldset>
+            <h2 style="padding-bottom:80px">Welcome to Wholesalers Signup Portal</h2>
+            <div class="form-floating mb-3">
+                {{form.username.label(class="form-control-label")}}
+                {%if form.username.errors%}
+                {{form.username(class="form-control form-control-lg is-invalid")}}
+                    {%for error in form.username.errors%}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                {% else %}
+                {{form.username(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-floating mb-3">
+                {{form.email.label(class="form-control-label")}}
+                {%if form.email.errors%}
+                {{form.email(class="form-control form-control-lg is-invalid")}}
+                    {%for error in form.email.errors%}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                {% else %}
+                {{form.email(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-floating mb-3">
+                {{form.password.label(class="form-control-label")}}
+                {%if form.password.errors%}
+                {{form.password(class="form-control form-control-lg is-invalid")}}
+                    {%for error in form.password.errors%}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                {% else %}
+                {{form.password(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+            <div class="form-floating mb-3">
+                {{form.confirm_password.label(class="form-control-label")}}
+                {%if form.confirm_password.errors%}
+                {{form.confirm_password(class="form-control form-control-lg is-invalid")}}
+                    {%for error in form.confirm_password.errors%}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                {% else %}
+                {{form.confirm_password(class="form-control form-control-lg")}}
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="field-group mt=4">
+            {{form.submit(class='BUTTON_CZN')}}
+        </div>
+    </form>
+</div>
+
+{% endblock body %}
