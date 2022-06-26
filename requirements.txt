@@ -1,4 +1,4 @@
-﻿alabaster==0.7.12
+alabaster==0.7.12
 alembic==1.5.8
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
@@ -80,11 +80,12 @@ pycparser==2.20
 Pygments==2.11.2
 PyMySQL==1.0.2
 pyparsing==3.0.6
+pypiwin32==223
 pyrsistent==0.18.0
 python-dateutil==2.8.1
 python-editor==1.0.4
 pytz==2021.3
-pypiwin32==223
+pywin32==303
 pywinpty==1.1.6
 pyzmq==22.3.0
 qtconsole==5.2.2
