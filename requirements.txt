@@ -103,6 +103,7 @@ tomli==1.2.3
 tornado==6.1
 traceback2==1.4.0
 traitlets==5.1.1
+turtle==0.0.1
 typing_extensions==4.0.1
 unittest2==1.1.0
 urllib3==1.26.8
