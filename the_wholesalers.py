@@ -121,6 +121,7 @@ mail=Mail(app)
 #     return render_template('login.html', error=error)
 
 # for reference of flask-login read this https://flask-login.readthedocs.io/en/latest/
+# it sees does there is alredy a session created by checking the cookies
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(user_id)
