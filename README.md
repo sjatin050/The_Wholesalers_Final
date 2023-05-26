@@ -62,6 +62,31 @@ This page provides 4 functionalities :
 4. Customers Pending Payments details.
 Click on any of them .
 
+### 6.1. Pending Order Details
+when you hit "click Here" of "Pending Order Details" of Orders Page , we are redirected to new page .
+![pending orders page](https://github.com/sjatin050/The_Wholesalers_Final/assets/63118687/c4e05e1a-fdb6-413b-bb85-f0a9ae901537)
+This page provide the 4 functions :
+1. Update the Order
+2. Delete the order
+3. After order id delevered , add it to Pending Payments.
+4. Add this order to history.
+Click on any of them.
 
+### 6.2. History Of Completed Orders
+When you hit "click Here" of "Completed Previous Orders Details" of Orders Page , we are redirected to new page.
+![completed prev order details](https://github.com/sjatin050/The_Wholesalers_Final/assets/63118687/b0d52898-9755-4411-bfe6-b67b91a033ba)
 
+### 6.3 Place Request of new Order
+When you hit "click Here" of "Place an Order" of Orders Page , we are redirected to new page.
+![place your order page](https://github.com/sjatin050/The_Wholesalers_Final/assets/63118687/9e0f582a-0f05-4eb0-8d1d-9d2fd15f474d)
+After Filling all the required details , hit the "Order items" , it will get saved in the "Pending Order Details" Page.
 
+### 6.4 Pending Payments Details 
+When you hit "click Here" of "Pending Payments Details" of Orders Page , we are redirected to new page.
+It contains details of all customers , who have not paid the money.
+![pending payments page](https://github.com/sjatin050/The_Wholesalers_Final/assets/63118687/f185b3b7-e9ac-425f-87e7-74879df68397)
+If the customer has paid the money , hit "add it to History" , it will be added to History Page.
+
+### 7. About Page 
+When you hit "About" of Home page , Developer details are shown.
+![about page](https://github.com/sjatin050/The_Wholesalers_Final/assets/63118687/bf2edcf6-2d50-42c1-a2ca-b0587a5fcc76)
