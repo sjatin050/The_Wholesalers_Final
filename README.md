@@ -1,7 +1,8 @@
-# The_Wholesalers_Final
+# The_Wholesalers
  
 ## About The project
 The main Focus of the project is to Keep check of the stock of corresponding Wholesale-Retailer. Like:- Ordering the New Stock, Check on Bill Payments, checking current stock,updating stock,etc.
+</br>
 Technologies Used:- SQL, Flask, HTML, CSS .
 
 ## Demonstrating The Site flow
