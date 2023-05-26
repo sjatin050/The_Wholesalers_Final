@@ -82,7 +82,7 @@ When you hit **click Here** of **Completed Previous Orders Details** of Orders P
 ### 6.3 Place Request of new Order
 When you hit **click Here** of **Place an Order** of Orders Page , we are redirected to new page.
 ![place your order page](https://github.com/sjatin050/The_Wholesalers_Final/blob/main/static/images/screenshots/place%20your%20order%20page.PNG)
-After Filling all the required details , hit the "Order items" , it will get saved in the "Pending Order Details" Page.
+After Filling all the required details , hit the **Order items** , it will get saved in the **Pending Order Details** Page.
 
 ### 6.4 Pending Payments Details 
 When you hit **click Here** of **Pending Payments Details** of Orders Page , we are redirected to new page.
