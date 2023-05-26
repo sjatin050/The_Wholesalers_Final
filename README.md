@@ -93,3 +93,7 @@ If the customer has paid the money , hit "add it to History" , it will be added 
 ### 7. About Page 
 When you hit **About** of Home page , Developer details are shown.
 ![about page](https://github.com/sjatin050/The_Wholesalers_Final/blob/main/static/images/screenshots/about%20page.PNG)
+
+### 8. Footer
+This the footer which is displayed at the bottom in every page.
+![Footer](https://github.com/sjatin050/The_Wholesalers_Final/blob/main/static/images/screenshots/footer.PNG)
